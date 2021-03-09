@@ -79,14 +79,8 @@ def all_holidays_with_bbq(holiday_hash)
     data.find do |holiday, supply|
       if supply.include?("BBQ")
         holiday_name << key
+      end
     end
   end
   holiday_name
 end
-
-
-
-
-
-
-
